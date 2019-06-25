@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginTop="10dp"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_marginLeft="15dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@mipmap/iv1"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:text="第一位用户"
+        android:textSize="26sp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:textSize="24sp"
+        android:layout_gravity="end"
+        android:layout_marginLeft="70dp"
+        />
+
+
+</LinearLayout>
